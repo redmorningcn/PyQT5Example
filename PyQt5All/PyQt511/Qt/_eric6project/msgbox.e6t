@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project msgbox -->
+<!-- Saved: 2017-09-29, 17:38:48 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{26eeeb61-344a-4a83-8b70-16ac4a1d7956}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-09-29, 16:58:48</Created>
+    <Resource>
+      <Filename>Dialog_msgbox.py</Filename>
+      <Linenumber>33</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7fb36669-6b01-4a57-b3f0-475aee54d9a2}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-09-29, 16:58:48</Created>
+    <Resource>
+      <Filename>Dialog_msgbox.py</Filename>
+      <Linenumber>41</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

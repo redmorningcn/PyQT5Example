@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>学点编程吧--拼图小游戏</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>661</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="action_O"/>
+    <addaction name="separator"/>
+    <addaction name="action_E"/>
+   </widget>
+   <widget class="QMenu" name="menu_G">
+    <property name="title">
+     <string>游戏(&amp;G)</string>
+    </property>
+    <addaction name="action_R"/>
+    <addaction name="separator"/>
+    <addaction name="action_P"/>
+   </widget>
+   <widget class="QMenu" name="menu_A">
+    <property name="title">
+     <string>关于(&amp;A)</string>
+    </property>
+    <addaction name="action_J"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_G"/>
+   <addaction name="menu_A"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_O">
+   <property name="text">
+    <string>打开图片(&amp;O)</string>
+   </property>
+   <property name="statusTip">
+    <string>打开图片</string>
+   </property>
+  </action>
+  <action name="action_E">
+   <property name="text">
+    <string>退出游戏(&amp;E)</string>
+   </property>
+   <property name="statusTip">
+    <string>退出游戏</string>
+   </property>
+  </action>
+  <action name="action_R">
+   <property name="text">
+    <string>重新开始(&amp;R)</string>
+   </property>
+   <property name="statusTip">
+    <string>重新开始游戏</string>
+   </property>
+  </action>
+  <action name="action_S">
+   <property name="text">
+    <string>难度选择(&amp;S)</string>
+   </property>
+  </action>
+  <action name="action_P">
+   <property name="text">
+    <string>显示还原后的图片(&amp;P)</string>
+   </property>
+  </action>
+  <action name="action_J">
+   <property name="text">
+    <string>关于拼图小游戏(J)</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

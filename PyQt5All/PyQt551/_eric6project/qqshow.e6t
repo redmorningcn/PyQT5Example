@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project qqshow -->
+<!-- Saved: 2018-06-12, 23:09:02 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{9449f55b-7865-40b1-857b-a1e54ee95260}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-06-12, 22:45:48</Created>
+    <Resource>
+      <Filename>qqshow.py</Filename>
+      <Linenumber>67</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{abc985eb-5615-4366-b631-e4bd37f49596}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-06-12, 22:45:48</Created>
+    <Resource>
+      <Filename>selectcoat.py</Filename>
+      <Linenumber>35</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8b70e2e8-7141-4149-bfbd-e08f26fb8d9b}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-06-12, 22:45:48</Created>
+    <Resource>
+      <Filename>selectcoat.py</Filename>
+      <Linenumber>46</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{43f26c53-b9f1-49da-b8f3-d350ceb8d40d}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-06-12, 22:45:48</Created>
+    <Resource>
+      <Filename>selectcoat.py</Filename>
+      <Linenumber>57</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{30eeb711-d699-4b82-abe0-d95d2ae327a8}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-06-12, 22:45:48</Created>
+    <Resource>
+      <Filename>selectpants.py</Filename>
+      <Linenumber>35</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{bb34fbf8-a909-4ef3-83f7-9e5a3c392bc5}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-06-12, 22:45:48</Created>
+    <Resource>
+      <Filename>selectpants.py</Filename>
+      <Linenumber>46</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{54bf9e9d-4e8c-4fa4-aec8-93ae4faf06ac}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-06-12, 22:45:48</Created>
+    <Resource>
+      <Filename>selectpants.py</Filename>
+      <Linenumber>57</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

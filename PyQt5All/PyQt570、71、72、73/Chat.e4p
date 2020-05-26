@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project Chat -->
+<!-- Saved: 2018-09-16, 21:48:19 -->
+<!-- Copyright (C) 2018 ,  -->
+<Project version="5.1">
+  <Language></Language>
+  <Hash>39fd063bb1ad8b66c47ed17b8c9879d542380019</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>Ui_tcpclient.py</Source>
+    <Source>Ui_tcpserver.py</Source>
+    <Source>Ui_widget.py</Source>
+    <Source>__init__.py</Source>
+    <Source>chat_widget.py</Source>
+    <Source>image_rc.py</Source>
+    <Source>tcpclient_widget.py</Source>
+    <Source>tcpserver_widget.py</Source>
+  </Sources>
+  <Forms>
+    <Form>tcpclient.ui</Form>
+    <Form>tcpserver.ui</Form>
+    <Form>widget.ui</Form>
+    <Form>widget666.ui</Form>
+  </Forms>
+  <Resources>
+    <Resource>image.qrc</Resource>
+  </Resources>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>

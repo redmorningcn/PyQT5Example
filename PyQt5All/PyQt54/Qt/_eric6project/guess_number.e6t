@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project guess_number -->
+<!-- Saved: 2017-08-03, 10:43:21 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{11b6ee05-dc58-4e2e-b860-361fd3a64c76}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-08-03, 10:43:15</Created>
+    <Resource>
+      <Filename>action.py</Filename>
+      <Linenumber>44</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

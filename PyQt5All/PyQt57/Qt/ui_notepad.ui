@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>关注微信公众号：学点编程吧--记事本</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="actionFile"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSaveas"/>
+    <addaction name="separator"/>
+    <addaction name="actionSeting"/>
+    <addaction name="actionPrint"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>编辑(&amp;E)</string>
+    </property>
+    <addaction name="actionUndo_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionClip"/>
+    <addaction name="actionCopy_2"/>
+    <addaction name="actionPaste_2"/>
+    <addaction name="actionDel"/>
+    <addaction name="separator"/>
+    <addaction name="actionSearch"/>
+    <addaction name="actionSearchnext"/>
+    <addaction name="actionReplace"/>
+    <addaction name="actionGoto"/>
+    <addaction name="separator"/>
+    <addaction name="actionSelectall"/>
+    <addaction name="actionDate"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>格式(&amp;O)</string>
+    </property>
+    <addaction name="actionHuanhang"/>
+    <addaction name="actionFont"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>帮助(&amp;H)</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionFile">
+   <property name="text">
+    <string>新建(&amp;N)</string>
+   </property>
+   <property name="statusTip">
+    <string>新建文件</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>打开(&amp;O)...</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>保存(&amp;S)</string>
+   </property>
+   <property name="statusTip">
+    <string>保存文件</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSaveas">
+   <property name="text">
+    <string>另存为(&amp;A)...</string>
+   </property>
+   <property name="statusTip">
+    <string>文件另存为</string>
+   </property>
+  </action>
+  <action name="actionSeting">
+   <property name="text">
+    <string>页面设置(&amp;U)</string>
+   </property>
+   <property name="statusTip">
+    <string>设置页面的选项</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="text">
+    <string>打印(&amp;P)</string>
+   </property>
+   <property name="statusTip">
+    <string>打印文件</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>退出(&amp;X)</string>
+   </property>
+   <property name="statusTip">
+    <string>退出文件</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>undo</string>
+   </property>
+  </action>
+  <action name="actionJiantie">
+   <property name="text">
+    <string>jiantie</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>paste</string>
+   </property>
+  </action>
+  <action name="actionUndo_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>撤销(&amp;U)</string>
+   </property>
+   <property name="statusTip">
+    <string>撤销上一步</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionClip">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>剪贴(&amp;T)</string>
+   </property>
+   <property name="statusTip">
+    <string>剪贴文字</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionCopy_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>复制(&amp;C)</string>
+   </property>
+   <property name="statusTip">
+    <string>复制文字</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPaste_2">
+   <property name="text">
+    <string>粘贴(&amp;P)</string>
+   </property>
+   <property name="statusTip">
+    <string>粘贴文字</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionDel">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>删除(&amp;L)</string>
+   </property>
+   <property name="statusTip">
+    <string>删除文字</string>
+   </property>
+   <property name="shortcut">
+    <string>Del</string>
+   </property>
+  </action>
+  <action name="actionSearch">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>查找(&amp;F)...</string>
+   </property>
+   <property name="statusTip">
+    <string>查找文字</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionSearchnext">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>查找下一个(&amp;N)</string>
+   </property>
+   <property name="statusTip">
+    <string>查找下一个内容</string>
+   </property>
+  </action>
+  <action name="actionReplace">
+   <property name="text">
+    <string>替换(R)...</string>
+   </property>
+   <property name="statusTip">
+    <string>替换文字</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="actionGoto">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>转到(&amp;G)...</string>
+   </property>
+   <property name="statusTip">
+    <string>跳转到</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionSelectall">
+   <property name="text">
+    <string>全选(&amp;A)</string>
+   </property>
+   <property name="statusTip">
+    <string>全部内容选中</string>
+   </property>
+  </action>
+  <action name="actionDate">
+   <property name="text">
+    <string>时间/日期(&amp;D)</string>
+   </property>
+   <property name="statusTip">
+    <string>插入时间和日期</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="actionHuanhang">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>自动换行(&amp;W)</string>
+   </property>
+   <property name="statusTip">
+    <string>开启自动换行</string>
+   </property>
+  </action>
+  <action name="actionFont">
+   <property name="text">
+    <string>字体(&amp;F)...</string>
+   </property>
+   <property name="statusTip">
+    <string>选中你需要的字体</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>查看帮助(&amp;H)</string>
+   </property>
+   <property name="statusTip">
+    <string>获取帮组内容</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>关于记事本(&amp;A)</string>
+   </property>
+   <property name="statusTip">
+    <string>记事本介绍</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

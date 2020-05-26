@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project markdown -->
+<!-- Saved: 2018-03-14, 10:56:37 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{bb7e1008-9b0d-4e18-a3fc-18cd1839a8f1}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-03-14, 10:55:17</Created>
+    <Resource>
+      <Filename>Dialog_main.py</Filename>
+      <Linenumber>150</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{83dd0c3a-e33e-4881-ba32-fd596318ae7f}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2018-03-14, 10:55:17</Created>
+    <Resource>
+      <Filename>Dialog_mainnetwork.py</Filename>
+      <Linenumber>36</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

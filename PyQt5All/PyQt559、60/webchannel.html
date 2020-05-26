@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            PyQt5与Web页面交互小例子2
+        </title>
+        <meta charset="UTF-8">
+        <script language="javascript" src="./qwebchannel.js"></script>
+        <script language="javascript">
+
+            function Web2PyQt5Value() {
+                //web向PyQt5传值
+                if ( window.connection) {
+                    // JavaScript的全局变量：window.connection
+                    var name = document.getElementById("username").value;
+                    var pwd = document.getElementById("passwd").value;
+                    var np = name + " " + pwd;
+                    window.connection.value = np;
+                }
+                // 若window.connection存在，我们给第三方共享类里面的value设置成变量np的值
+            }
+
+            function showResutl(){
+                //显示结果
+                var username = document.getElementById('username').value;
+                var pwd = document.getElementById('passwd').value;
+                // 获得网页中文本框里面的用户名和密码
+
+                if (username == ""){
+                    alert("用户名不能为空！");
+                    return false;
+                }
+                else if (pwd == ""){
+                    alert("密码不能为空！");
+                    return false;
+                }
+                else {
+                    var pwd_name = "用户名：" + username + "，密码：" + pwd;
+                    var obj = document.getElementById('r1');
+                    obj.innerHTML = pwd_name;
+                }
+
+                var v = Web2PyQt5Value();
+            }
+
+            function rest(){
+                // 重置用户名和密码
+                document.getElementById("username").value='' ;
+                document.getElementById("passwd").value='' ;
+                var obj = document.getElementById('r1');
+                obj.innerHTML = "";
+            }
+
+            function PyQt52WebValue(name, pwd){
+                // 显示PyQt5传来的值
+                document.getElementById("username").value = name ;
+                document.getElementById("passwd").value= pwd ;
+                var pwd_name = "这是从PyQt5传来的值：\n"+"用户名：" + name + "，密码：" + pwd;
+                alert(pwd_name);
+            }
+
+            document.addEventListener("DOMContentLoaded", function () {
+                new QWebChannel( qt.webChannelTransport, function(channel) {
+                    window.connection = channel.objects.connection;
+                });
+                // 当初始的 HTML 文档被完全加载和解析完成之后，DOMContentLoaded 事件被触发。
+                // 这样我们就新建一个QWebChannel对象（针对qwebchannel.js里的）。
+                // Web页面可以通过channel.objects属性访问所有已发布的对象，这里对象的id是“conncetion”。
+                // 我们将其设置成JavaScript的全局变量：window.connection。
+            });
+        
+        </script>
+    </head>
+    <body>
+        <font color="red">*</font>用户名: <input type="text" name="username" id="username"><br>
+        <font color="red">*</font>密&nbsp;&nbsp;&nbsp;码: <input type="password" name="passwd" id="passwd"><br><br>
+        <button onclick="showResutl()">传值给PyQt5</button>
+        <button onclick="rest()">重置</button><br>
+        <span id="r1"></span>
+    </body>
+</html>

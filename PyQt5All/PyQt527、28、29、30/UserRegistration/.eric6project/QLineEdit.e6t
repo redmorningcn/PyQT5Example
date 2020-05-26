@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project QLineEdit -->
+<!-- Saved: 2019-01-21, 17:53:30 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{d3bde087-0d6b-4c19-8950-54ba62730993}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2019-01-21, 17:53:26</Created>
+    <Resource>
+      <Filename>Dialog_ui.py</Filename>
+      <Linenumber>63</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{730350b1-2608-4ae0-b655-8e398ff7ae17}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2019-01-21, 17:53:26</Created>
+    <Resource>
+      <Filename>Dialog_ui.py</Filename>
+      <Linenumber>79</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f232ea93-72f2-4718-bdcf-9dd9f9c7eee3}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2019-01-21, 17:53:26</Created>
+    <Resource>
+      <Filename>Dialog_ui.py</Filename>
+      <Linenumber>97</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{598eaeb8-dddd-497e-be77-96b66e49bc01}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2019-01-21, 17:53:26</Created>
+    <Resource>
+      <Filename>Dialog_ui.py</Filename>
+      <Linenumber>117</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{22a64e8a-5ade-4906-823b-0f9573b5dbfa}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2019-01-21, 17:53:26</Created>
+    <Resource>
+      <Filename>Dialog_ui.py</Filename>
+      <Linenumber>134</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>
